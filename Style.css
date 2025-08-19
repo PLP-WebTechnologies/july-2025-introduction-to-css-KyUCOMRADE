@@ -1,0 +1,46 @@
+/* General page styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Header styling */
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Footer styling */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Card component - demonstrating the Box Model */
+.card {
+    background-color: white;
+    margin: 20px auto;
+    padding: 20px; /* Padding for spacing inside */
+    border: 2px solid #ccc; /* Border visible */
+    border-radius: 5px;
+    width: 80%;
+    max-width: 600px;
+    box-sizing: border-box; /* Includes padding/border in width */
+}
+
+/* Headings inside cards */
+.card h2 {
+    color: #4CAF50;
+}
+
+/* Paragraph styling */
+.card p {
+    margin-top: 10px;
+}
